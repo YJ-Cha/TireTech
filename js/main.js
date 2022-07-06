@@ -71,8 +71,7 @@ $('.modal_wrap').animate({opacity: 1},300)
 
 $('.modal_wrap .close_btn').click(function(){
     $('.modal_wrap').animate({opacity: 0},300)
-    .css('top','calc(50% - 325px)');
-    $('.modal_wrap').close();
+    .css('top','calc(50% - 325px)').hide(300);
 })
 
 var swiper = new Swiper(".modalSwiper", {
