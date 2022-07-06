@@ -249,21 +249,17 @@ header {
 }
 
 /*footer 하단 고정*/
-
-#total_wrap {
-    height: auto;
-    min-height: 100%;
-    padding-bottom: 74px;
-    position: relative;
+.footer_bottom_pin1 {
+    height: calc(100vh - 849px);
+    min-height: 0;
+}
+.footer_bottom_pin {
+    height: calc(100vh - 464px);
 }
 
 .footer_wrap {
     padding: 10px 0;
     background-color: #434743;
-    height: 74px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 footer {
@@ -389,6 +385,7 @@ footer {
     height: 170px;
     position: relative;
     background-color: #ededed;
+    overflow: hidden;
 }
 .keyvisual .title {
     position: absolute;
